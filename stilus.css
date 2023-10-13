@@ -1,0 +1,74 @@
+
+.tarolo{
+    width:80%;
+    max-width: 800px;
+    margin:auto ;
+    padding: 10px;
+    
+}
+.szoveg {
+    padding-top: 20px;
+    margin:auto ;
+    text-align:center ;
+}
+
+.gomb{
+    
+    width: 200px;
+    margin: auto;  
+    padding: 10px; 
+    border-radius: 20px;/*lekeritet gomb*/
+    margin: auto;
+    background-color: rgb(216, 87, 13);
+    text-align:center ;
+}
+.gomb a{
+  color: white;
+  text-decoration: none;
+   
+}
+.fejlec{
+    background-image: url(kepek/hero.jpg);
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    margin: auto;
+}
+
+.pic img{
+    width:100%;/*a kép szélesége kitőlti a tárolot*/
+}
+
+.menu ul{
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 25% 25% 25% 25%;/*gombok egyásmellet milyen arányban*/
+}
+.menu li{
+    padding: 10px;
+    border-radius: 20px;/*lekeritet gomb*/
+    margin: auto;
+    background-color: rgb(216, 87, 13);
+}
+    
+.menu a{
+    text-decoration: none;/*leszedjük az aláhuzást*/
+    color: rgb(255, 255, 255);
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 20% 20% 20%;/*gombok egyásmellet milyen arányban*/
+}
+
+.menu li:hover{
+    background-color: rgb(245, 2, 2);
+}
+.gomb a:hover{
+    background-color: rgb(245, 2, 2);
+}
+.menu a:hover{
+    background-color: rgba(218, 233, 86, 0.685);
+}
+
